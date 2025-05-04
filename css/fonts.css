@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "IranSansX";
+    src: url(/Assets/fonts/IRANSansX-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "IranSansX";
+    src: url(/Assets/fonts/IRANSansX-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: bold;
+}
+body,
+button,
+input,
+textarea{
+    font-family: roboto;
+    font-family: "IranSansX";
+    padding: 1rem;
+}
